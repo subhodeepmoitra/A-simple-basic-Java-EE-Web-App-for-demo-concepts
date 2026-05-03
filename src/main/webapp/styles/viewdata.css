@@ -1,0 +1,77 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 3, 2026, 11:40:09 AM
+    Author     : subhodeep
+*/
+
+/* Table Styles for Railway Data */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #00529b; /* Indian Railways Blue */
+    color: white;
+    padding: 12px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #f1f7ff; /* Light highlight on hover */
+}
+
+/* Action Link Styles */
+.action-link {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.delete-link {
+    color: #ef5350; /* Red */
+    border: 1px solid #ef5350;
+}
+
+.delete-link:hover {
+    background-color: #ef5350;
+    color: white;
+}
+
+.edit-link {
+    color: #00529b; /* Blue */
+    border: 1px solid #00529b;
+}
+
+.edit-link:hover {
+    background-color: #00529b;
+    color: white;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #00529b;
+    font-weight: bold;
+    text-decoration: none;
+}
