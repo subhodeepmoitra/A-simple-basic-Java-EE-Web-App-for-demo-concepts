@@ -47,6 +47,7 @@
             }
             .manage-btn { background-color: #00529b; } /* Blue */
             .view-btn { background-color: #ef5350; }   /* Red */
+            .add-btn {background-color: greenyellow}
         </style>
     </head>
     <body>
@@ -55,14 +56,16 @@
             <p>Welcome, Administrator. Please select an action:</p>
             
             <div class="btn-group">
-                <!-- Redirects to your form page -->
                 <button onclick="location.href='Adminlogin.jsp'" class="nav-button manage-btn">
                     Manage Traffic
                 </button>
                 
-                <!-- Redirects to your data view servlet/page -->
                 <button onclick="location.href='viewdata'" class="nav-button view-btn">
                     View Details
+                </button>
+                
+                <button onclick="location.href='addUser.jsp'" class="nav-button add-btn">
+                    Add User
                 </button>
             </div>
         </div>

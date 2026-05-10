@@ -1,9 +1,12 @@
 com/mycompany/mavenproject1/myServlet.class
-com/mycompany/mavenproject1/resources/JakartaEE10Resource.class
 com/mycompany/mavenproject1/viewdata.class
 com/mycompany/mavenproject1/EditFetchServlet.class
 com/mycompany/mavenproject1/LoginServlet.class
+com/mycompany/mavenproject1/UpdateFinalServlet.class
+com/mycompany/mavenproject1/UserDAO.class
+com/mycompany/mavenproject1/resources/JakartaEE10Resource.class
+com/mycompany/mavenproject1/User.class
+com/mycompany/mavenproject1/addUserMVC.class
 com/mycompany/mavenproject1/DeleteServlet.class
 com/mycompany/mavenproject1/LogoutServlet.class
-com/mycompany/mavenproject1/UpdateFinalServlet.class
 com/mycompany/mavenproject1/JakartaRestConfiguration.class
